@@ -23,19 +23,3 @@ export class HomePage {
     });
   }
 }
-
-
-// export class HomePage {
-
-//   public people: any;
-//   constructor( public navCtrl: NavController, public peopleService: PeopleService) {
-    
-//   }
-
-//   loadPeople(){
-//   	this.peopleService.load()
-//   	.then(data => {
-//   	  this.people = data;
-//   	});
-//   }
-// }
