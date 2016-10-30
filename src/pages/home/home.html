@@ -10,9 +10,11 @@
       <ion-avatar item-left>
         <img src="{{person.picture.thumbnail}}">
       </ion-avatar>
-      <h2> {{person.name.title | lowercase}}. {{person.name.first}} {{person.name.last}}</h2>
-      <p>{{person.email}}</p>
-      <p>{{person.gender}}</p>
+      <h2>Name:- {{person.name.title | lowercase}}. {{person.name.first}} {{person.name.last}}</h2>
+      <p>Gender:- {{person.gender}}</p>
+      <p>Birth Date:- {{person.dob}}</p>
+      <p>Email:- {{person.email}}</p>
+      <p>Mob:- {{person.phone}}</p>
     </ion-item>
   </ion-list>
 </ion-content>
